@@ -2,10 +2,6 @@
 10	1556	7804315519976707	CMakeFiles/PlexFileRenamer.dir/Formating.cpp.obj	e1578846ce4bcdfa
 6	2029	7804345332562184	CMakeFiles/PlexFileRenamer.dir/main.cpp.obj	87dabe4c55ab43d9
 7	3360	7804315519943681	CMakeFiles/PlexFileRenamer.dir/FileManager.cpp.obj	eac5aaf45278ec2f
-3	337	7804373076371131	build.ninja	362ba83924fe8109
-2029	2311	7804345352795824	PlexFileRenamer.exe	3aebc36df89ec120
-1	194	7804373076371131	build.ninja	362ba83924fe8109
-4	112	7804373076577114	CMakeFiles/PlexFileRenamer.dir/version.rc.obj	ff1ebe6bdfb5c1c8
-112	573	7804373077651751	PlexFileRenamer.exe	8b96db971d6b28fb
-5	55	7804373821104609	CMakeFiles/PlexFileRenamer.dir/version.rc.obj	ff1ebe6bdfb5c1c8
+1	194	7804383215504038	build.ninja	362ba83924fe8109
 55	334	7804373821601713	PlexFileRenamer.exe	8b96db971d6b28fb
+5	55	7804373821104609	CMakeFiles/PlexFileRenamer.dir/version.rc.obj	ff1ebe6bdfb5c1c8
