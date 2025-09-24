@@ -1,0 +1,5 @@
+# ninja log v6
+10	1556	7804315519976707	CMakeFiles/PlexFileRenamer.dir/Formating.cpp.obj	e1578846ce4bcdfa
+2	2138	7804315519903538	CMakeFiles/PlexFileRenamer.dir/main.cpp.obj	87dabe4c55ab43d9
+7	3360	7804315519943681	CMakeFiles/PlexFileRenamer.dir/FileManager.cpp.obj	eac5aaf45278ec2f
+3360	3694	7804315553476396	PlexFileRenamer.exe	3aebc36df89ec120
