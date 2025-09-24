@@ -15,5 +15,5 @@ IMPORTANT:
         - Example: "D:\Media\Anime\Anime Name" it will use "Anime Name" as the name of the show/anime
     - The program will search this directory for folders or with the naming scheme "Season #"
         - This is case-sensitive
-        - # can be any whole number (1, 2, 3, 4, 5)
+        - # can be any whole number (1, 2, 3, 4, 5, 12, 3234, etc)
     - The program will keep the original filetype of any renamed files
