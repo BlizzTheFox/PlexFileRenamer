@@ -1,3 +1,0 @@
-D:/CLionProjects/PlexFileRenamer/cmake-build-release/CMakeFiles/PlexFileRenamer.dir
-D:/CLionProjects/PlexFileRenamer/cmake-build-release/CMakeFiles/edit_cache.dir
-D:/CLionProjects/PlexFileRenamer/cmake-build-release/CMakeFiles/rebuild_cache.dir

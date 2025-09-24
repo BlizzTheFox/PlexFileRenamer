@@ -1,5 +1,0 @@
-# ninja log v6
-2	2170	7705583741714684	CMakeFiles/PlexFileRenamer.dir/main.cpp.obj	87dabe4c55ab43d9
-5	4282	7705583741744853	CMakeFiles/PlexFileRenamer.dir/FilesWithinDirectory.cpp.obj	d0860f6673c08750
-4282	4540	7705583784519976	PlexFileRenamer.exe	c43e69efaa0bc19a
-4	205	7705586158299441	build.ninja	362ba83924fe8109
