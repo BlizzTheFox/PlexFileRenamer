@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "D:/CLionProjects/PlexFileRenamer/cmake-build-release-visual-studio",
+	"dir-cur-src" : "D:/CLionProjects/PlexFileRenamer",
+	"dir-top-bld" : "D:/CLionProjects/PlexFileRenamer/cmake-build-release-visual-studio",
+	"dir-top-src" : "D:/CLionProjects/PlexFileRenamer",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/CLionProjects/PlexFileRenamer/cmake-build-release-visual-studio/CMakeFiles/PlexFileRenamer.dir"
+}
