@@ -9,30 +9,26 @@ using namespace std; //bite it's me less typing
 namespace fs = filesystem; //bite me again it's less typing
 
 bool running = true;
-string fileLocation[2] = {("D:\\Media\\Anime Or Show Name"), ("D:\\Media\\Anime Or Show Name")};
-string animeName;
+string fileLocation = "D:\\Media\\Anime Or Show Name";
 
-vector<string> seasonsFolderPaths;
+vector<string> splitAnimeFolderPaths;
 
 int main() {
-    //Giving some information
-    printColour(aqua, "Welcome to Plex File Renamer!\n");
-    printColour(white,"Info about how the program works is in ReadMe.txt\n\n");
+    //asking user for relevant data (directory)
+    printColour(white, "The last/example file location was: "); printColour(green, fileLocation);
 
-    while (running) {
-        //asking user for relevant data (directory)
-        printColour(white, "The last/example file location was: "); printColour(green, fileLocation[1]);
+    //Directory
+    printColour(aqua, "\nIf you wish to rename multiple shows at once split separate the directories with \'|\' \nInput the full directory path"); printColour(white, ": ");
+    getline(cin >> ws, fileLocation);
 
-        //Directory
-        printColour(aqua, "\nInput the full directory path"); printColour(white, ": ");
-        getline(cin >> ws, fileLocation[0]);
-
-        //Anime name
-        fs::path directory = fileLocation[0];
-        animeName = directory.filename().string();
+    vector<string> splitAnimeFolderPaths = splitString(fileLocation, '|');
+    //Anime name
+    for (auto animeFolderPath : splitAnimeFolderPaths) {
+        fs::path directory = animeFolderPath;
+        string animeName = directory.filename().string();
 
         //Getting all the directories to the seasons folders
-        seasonsFolderPaths = getSeasonsFolders(fileLocation[0]);
+        vector<string> seasonsFolderPaths = getSeasonsFolders(animeFolderPath);
 
         //Displaying all the found folders
         printColour(aqua, "Folders found"); printColour(white, ": \n");
@@ -86,16 +82,6 @@ int main() {
                 i++;
             }
         }
-            //checking if the user wants to restart the program
-            char restartProgramChar;
-            printColour(aqua, "Do you wish to restart the program? "); printColour(green, "(y/n)"); printColour(white, ": ");
-            cin >> restartProgramChar;
-            if (restartProgramChar != 'y') {
-                running = false;
-            } else {
-                running = true;
-                fileLocation[1] = fileLocation[0];
-            }
     }
 
     return 0;

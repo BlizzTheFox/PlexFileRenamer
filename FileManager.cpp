@@ -8,6 +8,30 @@
 
 namespace fs = std::filesystem;
 
+//Splits A string based on a defined character
+std::vector<std::string> splitString(const std::string inputString, char delimiter)
+{
+    std::vector<std::string> splitStrings;
+    std::string current;
+
+    for (char c : inputString) {
+        if (c == delimiter) {
+            if (!current.empty()) {
+                splitStrings.push_back(current);
+                current.clear();
+            }
+        } else {
+            current += c;
+        }
+    }
+
+    // Don't forget the last token
+    if (!current.empty()) {
+        splitStrings.push_back(current);
+    }
+
+    return splitStrings;
+}
 
 //Returns a vector string containing the paths to folders with the name "Seasons #" in a directory
 std::vector<std::string> getSeasonsFolders(std::string directoryPath) {
